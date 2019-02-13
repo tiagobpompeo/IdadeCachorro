@@ -51,6 +51,7 @@
                                 <state key="normal" title="Descobrir Idade"/>
                                 <connections>
                                     <action selector="descobrirIdade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uxn-nv-C7k"/>
+                                    <segue destination="gAZ-3Q-Oey" kind="show" id="IbN-ah-7Kl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -64,7 +65,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-697" y="118"/>
+            <point key="canvasLocation" x="-402" y="96"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7F2-9U-1VN">
+            <objects>
+                <viewController id="gAZ-3Q-Oey" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Viu-zg-AAK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="019-gr-jdn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyG-kg-p2M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="358" y="86"/>
         </scene>
     </scenes>
     <resources>
